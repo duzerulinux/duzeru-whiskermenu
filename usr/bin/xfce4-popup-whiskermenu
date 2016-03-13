@@ -18,7 +18,7 @@
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
 #
 
-export TEXTDOMAIN="xfce4-panel"
+export TEXTDOMAIN=""
 export TEXTDOMAINDIR="/usr/share/locale"
 
 ATPOINTER="false"
@@ -35,7 +35,7 @@ case "$1" in
     exit 0
     ;;
   -V|--version)
-    echo "$(basename $0) 1.5.1"
+    echo "$(basename $0) 1.5.2"
     echo "Copyright (C) 2013 Graeme Gott"
     exit 0
     ;;
